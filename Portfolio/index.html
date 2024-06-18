@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <img src="./my pic.jpg" alt="My Photo" class="profile-img">
+            <h3>Hey!!! I'm</h3>
+            <h1>SWAPNANIL GHOSH</h1>
+            <p>Development enthusiastic || Java, Python, SQL, || Frontend:- HTML, CSS, JAVASCRIPT</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="theme-toggle">Dark Mode</button>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Enthusiastic and motivated fresher with a passion for development and developing. And eager to learn more about the industry. A quick learner who is ready to work and contribute to innovative projects. Seeking opportunities to grow and develop skills in a dynamic environment. As a fresher to pursue a challenging career and be a part of your progressive organization that gives me a scope to enhance my knowledge and helps me to utilize my skills towards the growth of the organization.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>ONLINE SYSTEM EXAMINATION</h3>
+            <p>The aim of the project is to create a website using Eclipse and we are using J2EE, Oracle as the backend data where Students can give their examination.</p>
+        </div>
+        <div class="project">
+            <h3>IRIS FLOWER CLASSIFICATION</h3>
+            <p>The aim of the project is to predict flowers based on their specific features using machine learning.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-list">
+            <!-- Skills will be added here dynamically -->
+        </div>
+        <input type="text" id="new-skill" placeholder="Add a new skill">
+        <button id="add-skill">Add Skill</button>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div id="education-list">
+            <!-- Education entries will be added here dynamically -->
+        </div>
+        <input type="text" id="college-name" placeholder="College Name">
+        <input type="text" id="duration" placeholder="Duration">
+        <input type="text" id="cgpa" placeholder="CGPA">
+        <input type="text" id="subject" placeholder="Subject">
+        <button id="add-education">Add Education</button>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Upload your resume: <input type="file" id="resume-upload"></p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:my-email@example.com">ghndrfeiu234@gmail.com</a></p>
+        <p>Phone: 123456789</p>
+        <p>LinkedIn: <a href="linkedin-profile-url">https://www.linkedin.com/in/swapnanil-ghosh-553425197/</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Swapnanil Ghosh</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
